@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2022 at 11:36 PM
+-- Generation Time: Jun 08, 2022 at 11:40 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -35,18 +35,6 @@ CREATE TABLE `historial` (
   `Price` int(10) NOT NULL,
   `Date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `historial`
---
-
-INSERT INTO `historial` (`Codigo`, `Id`, `OldUser`, `NewUser`, `Price`, `Date`) VALUES
-('N1sd41', 1, 'Sin dueño', 'Carlosjefe', 120, '2022-06-06 00:03:37'),
-('N1sd41', 2, 'Carlosjefe', 'JairJtoo', 20000, '2022-06-06 01:47:43'),
-('N1sd41', 3, 'JairJtoo', 'Carlosjefe', 20000, '2022-06-06 01:56:37'),
-('B2Wb41', 1, 'Sin dueño', 'Carlosjefe', 170, '2022-06-06 01:57:21'),
-('B1YW21', 1, 'Sin dueño', 'Carlosjefe', 120, '2022-06-06 01:57:56'),
-('K2Wb41', 1, 'Sin dueño', 'Alan12', 123, '2022-06-08 16:23:34');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
